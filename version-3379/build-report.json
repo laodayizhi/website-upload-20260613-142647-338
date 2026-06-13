@@ -1,0 +1,23 @@
+{
+  "movie_count": 2000,
+  "detail_page_count": 2000,
+  "html_page_count": 2014,
+  "category_count": 10,
+  "category_card_coverage_count": 2000,
+  "category_coverage_ok": true,
+  "missing_baidu_html": [],
+  "bundled_image_files_count": 0,
+  "video_sources_count": 20,
+  "category_distribution": {
+    "日韩精选": 200,
+    "爱情剧情": 200,
+    "悬疑惊悚": 200,
+    "动作犯罪": 200,
+    "喜剧家庭": 200,
+    "奇幻科幻": 200,
+    "经典历史": 200,
+    "纪录音乐": 200,
+    "剧集更新": 200,
+    "高分榜单": 200
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parsed_movies": 2000,
+  "detail_pages": 2000,
+  "category_pages": 14,
+  "category_coverage_unique": 2000,
+  "category_coverage_total": 2000,
+  "html_pages": 2022,
+  "html_with_baidu": 2022,
+  "jpg_files_in_zip_source": 0,
+  "hls_urls_extracted": 20,
+  "zip_size_bytes": 12840753,
+  "category_counts": {
+    "国产影视": 143,
+    "电影大全": 143,
+    "电视剧集": 143,
+    "爱情都市": 143,
+    "喜剧合家欢": 143,
+    "悬疑犯罪": 143,
+    "动作冒险": 143,
+    "科幻奇幻": 143,
+    "古装历史": 143,
+    "家庭剧情": 143,
+    "综艺真人秀": 142,
+    "海外精选": 143,
+    "励志成长": 143,
+    "文艺经典": 142
+  }
+}

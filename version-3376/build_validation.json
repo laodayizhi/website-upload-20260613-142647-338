@@ -1,0 +1,20 @@
+{
+    "movie_count": 2000,
+    "detail_count": 2000,
+    "html_count": 2014,
+    "category_covered_count": 2000,
+    "baidu_missing_count": 0,
+    "category_counts": {
+        "国产佳作": 200,
+        "动作冒险": 200,
+        "爱情剧情": 200,
+        "悬疑惊悚": 200,
+        "奇幻科幻": 200,
+        "喜剧动画": 200,
+        "历史古装": 200,
+        "环球剧场": 200,
+        "青春家庭": 200,
+        "口碑精选": 200
+    },
+    "m3u8_source_count": 20
+}

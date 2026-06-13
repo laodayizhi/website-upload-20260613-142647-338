@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>搜索影片 - 云光影视</title>
+    <meta name="description" content="在云光影视搜索日韩电影、高清片库、完整合集、排行榜和在线观看内容。">
+    <meta name="keywords" content="日韩电影,片库资源,免费高清播放,超清画质,完整合集,排行榜,在线观看,最新更新,搜索影片">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="nav-wrap">
+            <a class="brand" href="./index.html" aria-label="云光影视首页">
+                <span class="brand-mark">▶</span>
+                <span class="brand-text">
+                    <strong>云光影视</strong>
+                    <small>日韩电影片库</small>
+                </span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a class="" href="./index.html">首页</a>
+                <a class="" href="./categories.html">分类</a>
+                <a class="" href="./movies.html">全部片库</a>
+                <a class="" href="./ranking.html">排行榜</a>
+            </nav>
+            <form class="nav-search" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="搜索视频..." autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="mobile-toggle" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+        </div>
+        <div class="mobile-menu" data-mobile-menu>
+            <a class="" href="./index.html">首页</a>
+            <a class="" href="./categories.html">分类</a>
+            <a class="" href="./movies.html">全部片库</a>
+            <a class="" href="./ranking.html">排行榜</a>
+            <form class="mobile-search" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="搜索视频..." autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+        </div>
+    </header>
+    <main class="page-wrap">
+        <section class="content-section">
+            <div class="section-head">
+                <div>
+                    <h1>搜索影片</h1>
+                    <p>输入片名、地区、年份、类型或标签，快速查找片库内容。</p>
+                </div>
+            </div>
+            <form id="search-form" class="filter-panel" action="./search.html" method="get">
+                <input id="search-input" type="search" name="q" placeholder="搜索视频..." autocomplete="off">
+                <button class="filter-button" type="submit">搜索</button>
+            </form>
+            <div id="search-results" class="movie-grid"></div>
+            <div id="search-empty" class="search-empty">
+                <h2>发现你喜欢的内容</h2>
+                <p>可以搜索片名、标签、地区、年份和类型，进入影片详情页后即可在线播放。</p>
+                <a class="btn-primary" href="./categories.html">浏览分类</a>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-wrap">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <span class="brand-mark">▶</span>
+                    <strong>云光影视</strong>
+                </div>
+                <p>日韩电影片库提供免费高清播放服务，拥有超清画质完整合集与排行榜，支持在线观看和最新更新，包括冷门精品和追剧必备功能，方便用户找片。</p>
+            </div>
+            <div class="footer-links">
+                <h2>频道导航</h2>
+                    <a href="./category-hot-streaming.html">热门放映</a>
+                    <a href="./category-fresh-updates.html">最新更新</a>
+                    <a href="./category-japan-korea.html">日韩精选</a>
+                    <a href="./category-cinema-library.html">超清电影</a>
+                    <a href="./category-drama-series.html">剧集追看</a>
+                    <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+            </div>
+            <div class="footer-links">
+                <h2>片库入口</h2>
+                <a href="./movies.html">全部片库</a>
+                <a href="./ranking.html">热播排行榜</a>
+                <a href="./categories.html">分类频道</a>
+                <a href="./search.html">搜索影片</a>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 云光影视 · 日韩电影片库</div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/search-index.js"></script>
+    <script src="./assets/js/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
